@@ -53,3 +53,13 @@ body {
   background: #1c2225;
   border: none;
 }
+
+.header-soc-item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+}
