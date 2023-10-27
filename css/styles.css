@@ -1,3 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   background: #1c2225;
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-logo {
+  display: flex;
+  margin-right: 87px;
+}
+
+.header-soc {
+  display: flex;
+  gap: 12px;
+}
+
+.header-navigation {
+  display: flex;
+  padding-top: 24px;
 }
