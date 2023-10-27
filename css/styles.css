@@ -41,6 +41,7 @@ body {
 .header-soc {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .header-navigation {
